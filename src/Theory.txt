@@ -1,0 +1,11 @@
+ UseEffect --> This is a React Hook, In application every 'side effects' manage by UseEffect.
+
+ side effects --> It is a change that effect something outside the components(Changing in document title , Modifying the State of a parent component, DOM manupulation,Making an API call , Modifying the browser history) being rendered.
+
+ when we use UseEffect hook in any component first the component will be rendered then the hook will be exectued.
+
+when listner added to useEffect hook in 'return' code run first(for cleaning purpose) then useeffect code will run.
+
+
+
+
